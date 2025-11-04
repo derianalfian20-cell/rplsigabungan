@@ -5,6 +5,7 @@
 @section('content')
     <h1>My Blog</h1>
     <h3>Ini Blog Rian</h3>
+    <h2>asdasladj</h2>
     
     @foreach($posts as $post)
         <div class="post">
