@@ -4,7 +4,7 @@
 
 @section('content')
     <h1>My Blog</h1>
-    
+    <h3>dhdjlahd</h3>    
     @foreach($posts as $post)
         <div class="post">
             <h2>{{ $post['title'] }}</h2>
