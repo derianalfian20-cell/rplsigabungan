@@ -6,6 +6,7 @@
 
     <h1>Welcome</h1>
     <h3>Ini adalah Blog kami</h3>
+    <h2>What's Up</h2>
 
     @foreach($posts as $post)
         <div class="post">
