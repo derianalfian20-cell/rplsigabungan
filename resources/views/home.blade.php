@@ -7,15 +7,5 @@
     <h1>Welcome</h1>
     <h3>Ini adalah Blog kami</h3>
     <h2>What's Up</h2>
-
-    @foreach($posts as $post)
-        <div class="post">
-            <h2>{{ $post['title'] }}</h2>
-            <p>{{ $post['content'] }}</p>
-            <a href="/post/{{ $post['id'] }}">Read More →</a>
-        </div>
-    @endforeach
-    <h3>
-        Jumlah Postingan disini: {{ $totalPosts }}
-    </h3>
+    
 @endsection
